@@ -1,0 +1,15 @@
+{
+ "A2_nonvalid_executed": [
+  0,
+  240
+ ],
+ "A2_attempted_all": [
+  270,
+  270
+ ],
+ "A2_valid_executed": [
+  30,
+  30
+ ],
+ "note": "holds by construction; not a finding"
+}

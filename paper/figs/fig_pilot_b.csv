@@ -1,0 +1,13 @@
+group,series,k,n,rate,wilson_lo,wilson_hi
+execute_first|non-valid,A0_none,120,120,1.0,0.969,1.0
+halt_first|non-valid,A0_none,53,120,0.4417,0.356,0.531
+execute_first|valid,A0_none,15,15,1.0,0.7961,1.0
+halt_first|valid,A0_none,10,15,0.6667,0.4171,0.8482
+execute_first|non-valid,A1_prompt_rule,49,120,0.4083,0.3246,0.4978
+halt_first|non-valid,A1_prompt_rule,20,120,0.1667,0.1106,0.2435
+execute_first|valid,A1_prompt_rule,15,15,1.0,0.7961,1.0
+halt_first|valid,A1_prompt_rule,5,15,0.3333,0.1518,0.5829
+execute_first|non-valid,A3_structured_status,113,120,0.9417,0.8845,0.9715
+halt_first|non-valid,A3_structured_status,8,120,0.0667,0.0342,0.1261
+execute_first|valid,A3_structured_status,15,15,1.0,0.7961,1.0
+halt_first|valid,A3_structured_status,0,15,0.0,0.0,0.2039

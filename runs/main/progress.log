@@ -1,0 +1,17 @@
+START 2026-10-30 11:07:49 +0400
+BEGIN Qwen2.5-0.5B-Instruct attempt 1 2026-10-30 11:07:49 +0400
+END Qwen2.5-0.5B-Instruct attempt 1 rc=0 rows=1728 2026-10-30 12:32:36 +0400
+BEGIN Qwen2.5-1.5B-Instruct attempt 1 2026-10-30 12:32:36 +0400
+END Qwen2.5-1.5B-Instruct attempt 1 rc=0 rows=1728 2026-10-30 17:59:57 +0400
+BEGIN SmolLM2-1.7B-Instruct attempt 1 2026-10-30 17:59:57 +0400
+END SmolLM2-1.7B-Instruct attempt 1 rc=137 rows=737 2026-10-30 20:48:52 +0400
+BEGIN SmolLM2-1.7B-Instruct attempt 2 2026-10-30 20:48:52 +0400
+END SmolLM2-1.7B-Instruct attempt 2 rc=137 rows=737 2026-10-30 20:49:15 +0400
+BEGIN SmolLM2-1.7B-Instruct attempt 3 2026-10-30 20:49:15 +0400
+END SmolLM2-1.7B-Instruct attempt 3 rc=137 rows=737 2026-10-30 20:49:39 +0400
+BEGIN Qwen2.5-3B-Instruct attempt 1 2026-10-30 20:49:39 +0400
+END Qwen2.5-3B-Instruct attempt 1 rc=0 rows=1728 2026-10-31 07:34:17 +0400
+ALL_DONE 2026-10-31 07:34:17 +0400
+BEGIN SmolLM2-1.7B-Instruct attempt 4 2026-10-31 07:37:03 +0400
+END SmolLM2-1.7B-Instruct attempt 4 rc=0 rows=1728 2026-10-31 10:18:22 +0400
+ALL_DONE 2026-10-31 10:18:22 +0400

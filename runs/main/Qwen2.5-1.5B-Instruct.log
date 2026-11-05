@@ -1,0 +1,66 @@
+Loading weights:   0%|          | 0/338 [00:00<?, ?it/s]Loading weights:   0%|          | 1/338 [00:05<28:08,  5.01s/it]Loading weights:   7%|▋         | 24/338 [00:05<00:47,  6.55it/s]Loading weights:  36%|███▋      | 123/338 [00:05<00:05, 42.48it/s]Loading weights:  46%|████▌     | 154/338 [00:05<00:04, 43.66it/s]Loading weights:  52%|█████▏    | 175/338 [00:06<00:03, 44.86it/s]Loading weights:  56%|█████▌    | 190/338 [00:06<00:03, 43.42it/s]Loading weights:  60%|█████▉    | 202/338 [00:07<00:03, 44.59it/s]Loading weights:  63%|██████▎   | 212/338 [00:07<00:03, 38.65it/s]Loading weights:  65%|██████▍   | 219/338 [00:07<00:03, 38.85it/s]Loading weights:  68%|██████▊   | 231/338 [00:08<00:03, 35.08it/s]Loading weights:  72%|███████▏  | 243/338 [00:08<00:02, 38.56it/s]Loading weights:  74%|███████▎  | 249/338 [00:08<00:02, 37.49it/s]Loading weights:  75%|███████▌  | 255/338 [00:08<00:02, 37.76it/s]Loading weights:  77%|███████▋  | 260/338 [00:08<00:02, 35.54it/s]Loading weights:  79%|███████▉  | 267/338 [00:09<00:02, 33.49it/s]Loading weights:  83%|████████▎ | 279/338 [00:09<00:01, 40.76it/s]Loading weights:  84%|████████▍ | 284/338 [00:09<00:01, 38.28it/s]Loading weights:  86%|████████▌ | 291/338 [00:09<00:01, 36.20it/s]Loading weights:  90%|████████▉ | 303/338 [00:09<00:00, 37.13it/s]Loading weights:  93%|█████████▎| 315/338 [00:10<00:00, 37.46it/s]Loading weights:  94%|█████████▍| 319/338 [00:10<00:00, 34.80it/s]Loading weights:  97%|█████████▋| 327/338 [00:10<00:00, 35.03it/s]Loading weights: 100%|██████████| 338/338 [00:10<00:00, 31.76it/s]
+27 episodes, 210s
+54 episodes, 408s
+81 episodes, 607s
+108 episodes, 823s
+135 episodes, 1033s
+162 episodes, 1224s
+189 episodes, 1434s
+216 episodes, 1654s
+243 episodes, 1868s
+270 episodes, 2070s
+297 episodes, 2268s
+324 episodes, 2488s
+351 episodes, 3677s
+378 episodes, 3859s
+405 episodes, 4821s
+432 episodes, 5023s
+459 episodes, 5209s
+486 episodes, 5523s
+513 episodes, 5740s
+540 episodes, 5953s
+567 episodes, 6168s
+594 episodes, 6627s
+621 episodes, 6824s
+648 episodes, 7512s
+675 episodes, 7738s
+702 episodes, 7945s
+729 episodes, 8162s
+756 episodes, 8411s
+783 episodes, 8643s
+810 episodes, 8912s
+837 episodes, 9174s
+864 episodes, 9425s
+891 episodes, 9646s
+918 episodes, 9858s
+945 episodes, 10044s
+972 episodes, 10245s
+999 episodes, 10768s
+1026 episodes, 11102s
+1053 episodes, 11617s
+1080 episodes, 11833s
+1107 episodes, 12443s
+1134 episodes, 12633s
+1161 episodes, 12829s
+1188 episodes, 13033s
+1215 episodes, 13245s
+1242 episodes, 13431s
+1269 episodes, 14217s
+1296 episodes, 14820s
+1323 episodes, 15032s
+1350 episodes, 15218s
+1377 episodes, 15565s
+1404 episodes, 15802s
+1431 episodes, 16026s
+1458 episodes, 16242s
+1485 episodes, 16452s
+1512 episodes, 16695s
+1539 episodes, 16913s
+1566 episodes, 17109s
+1593 episodes, 18082s
+1620 episodes, 18340s
+1647 episodes, 18573s
+1674 episodes, 19223s
+1701 episodes, 19425s
+1728 episodes, 19639s
+{"episodes": 1728, "wall_seconds": 19638.7, "code_sha256": "fd4df50a8f3d6bd29a8e2b9a05e58220d01b0c4657ad3d25c10b35f2a8154e17"}

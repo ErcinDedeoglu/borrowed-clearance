@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this software or data, please cite it as below."
+title: "Borrowed Clearance harness and run records"
+authors:
+  - family-names: Dedeoglu
+    given-names: Ercin
+    orcid: "https://orcid.org/0009-0004-0792-5310"
+license: Apache-2.0

@@ -1,0 +1,66 @@
+Loading weights:   0%|          | 0/290 [00:00<?, ?it/s]Loading weights:   0%|          | 1/290 [00:01<05:34,  1.16s/it]Loading weights:  42%|████▏     | 123/290 [00:01<00:01, 132.48it/s]Loading weights:  64%|██████▍   | 186/290 [00:01<00:00, 126.86it/s]Loading weights:  78%|███████▊  | 226/290 [00:02<00:00, 130.50it/s]Loading weights:  88%|████████▊ | 256/290 [00:02<00:00, 128.04it/s]Loading weights:  97%|█████████▋| 280/290 [00:02<00:00, 135.32it/s]Loading weights: 100%|██████████| 290/290 [00:02<00:00, 117.31it/s]
+27 episodes, 48s
+54 episodes, 95s
+81 episodes, 138s
+108 episodes, 200s
+135 episodes, 243s
+162 episodes, 292s
+189 episodes, 339s
+216 episodes, 394s
+243 episodes, 440s
+270 episodes, 487s
+297 episodes, 539s
+324 episodes, 1481s
+351 episodes, 1536s
+378 episodes, 1596s
+405 episodes, 1653s
+432 episodes, 1725s
+459 episodes, 1780s
+486 episodes, 2421s
+513 episodes, 2479s
+540 episodes, 2559s
+567 episodes, 2625s
+594 episodes, 2688s
+621 episodes, 2749s
+648 episodes, 2825s
+675 episodes, 2885s
+702 episodes, 2935s
+729 episodes, 2998s
+756 episodes, 3068s
+783 episodes, 3121s
+810 episodes, 3172s
+837 episodes, 3227s
+864 episodes, 3295s
+891 episodes, 3345s
+918 episodes, 3395s
+945 episodes, 3446s
+972 episodes, 3510s
+999 episodes, 3565s
+1026 episodes, 3623s
+1053 episodes, 3670s
+1080 episodes, 3723s
+1107 episodes, 3782s
+1134 episodes, 3833s
+1161 episodes, 3889s
+1188 episodes, 3956s
+1215 episodes, 4005s
+1242 episodes, 4060s
+1269 episodes, 4119s
+1296 episodes, 4196s
+1323 episodes, 4246s
+1350 episodes, 4293s
+1377 episodes, 4352s
+1404 episodes, 4427s
+1431 episodes, 4479s
+1458 episodes, 4532s
+1485 episodes, 4584s
+1512 episodes, 4652s
+1539 episodes, 4700s
+1566 episodes, 4747s
+1593 episodes, 4800s
+1620 episodes, 4869s
+1647 episodes, 4917s
+1674 episodes, 4966s
+1701 episodes, 5017s
+1728 episodes, 5085s
+{"episodes": 1728, "wall_seconds": 5084.9, "code_sha256": "fd4df50a8f3d6bd29a8e2b9a05e58220d01b0c4657ad3d25c10b35f2a8154e17"}

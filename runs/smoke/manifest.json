@@ -1,0 +1,47 @@
+{
+ "policy": "hf",
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "dtype": "fp32",
+ "decoding": "greedy (do_sample=False)",
+ "max_new_tokens": 96,
+ "draws": 1,
+ "base_seed": 0,
+ "episodes": 81,
+ "grid": {
+  "patterns": [
+   "trust_by_position",
+   "approvals_that_float",
+   "content_as_authority"
+  ],
+  "variants": [
+   "none",
+   "peer_text_claim",
+   "doc_embedded",
+   "floating_approval",
+   "signed_wrong_payload",
+   "signed_expired",
+   "replayed",
+   "unentitled_signer",
+   "valid"
+  ],
+  "arms": [
+   "A0_none",
+   "A1_prompt_rule",
+   "A2_code_verifier"
+  ]
+ },
+ "code_sha256": "6189ea2b5c80b17018475590b9269e0e6ff138b798a296d1028d52187bd55e8b",
+ "system_prompts_sha256": "2ca858221a0d3b9e7e76859bffda9a263f5f36ff060a9e8ee20f7a33a5ed2ba5",
+ "python": "3.13.5",
+ "versions": {
+  "torch": "2.15.0+cpu",
+  "transformers": "5.22.0",
+  "cryptography": "50.0.2"
+ },
+ "load_seconds": 3.2,
+ "wall_seconds": 231.3,
+ "started": "2026-10-30T09:21:26+0400",
+ "model_calls": 130,
+ "gen_seconds": 227.8,
+ "new_tokens": 2788
+}

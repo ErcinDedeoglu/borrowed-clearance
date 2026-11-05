@@ -1,0 +1,296 @@
+{
+ "artifacts": [
+  {
+   "file": "paper/figs/v32/fig_threat.pdf",
+   "inputs": "H",
+   "object": "Fig. threat model",
+   "scripts": "make_exhibits_v31.py, make_figs_v31.py, widen_v32.py",
+   "sha256": "e752e6e08f550fffd1e928467ba1bc4936b17550ff93c6d1597db6f0482bb1f7"
+  },
+  {
+   "file": "paper/figs/v31/fig_harness_v31.pdf",
+   "inputs": "H",
+   "object": "Fig. harness",
+   "scripts": "make_figs_v31.py (tikz/v31/fig_harness_v31.tex)",
+   "sha256": "3ba3c344af4fe7b0f00f3eca88da3ed47107d0b73c9945bd2182d5097501a61c"
+  },
+  {
+   "file": "paper/figs/v32/fig_traj_schematic.pdf",
+   "inputs": "E, H, X",
+   "object": "Fig. trajectory schematic",
+   "scripts": "make_exhibits_v31.py, make_figs_v31.py, widen_v32.py",
+   "sha256": "c33de3aa2c32eb52f83d612f8f9c3c4b1c16ae4f0fdf244f4369292d25652474"
+  },
+  {
+   "file": "paper/figs/v31/tab_main.tex",
+   "inputs": "E",
+   "object": "Table main results",
+   "scripts": "make_figs.py, make_tabs_v31.py",
+   "sha256": "3f9fe83fb50f6bcd50b7ab210f29176526f4024800ab2b9d11e36af5dfbded2a"
+  },
+  {
+   "file": "paper/figs/v31/fig_main_arm.pdf",
+   "inputs": "E",
+   "object": "Fig. execution by arm",
+   "scripts": "redraw_v31.py",
+   "sha256": "f22c7ac2b53e5e02a67b9aa7f474498e907ec7a1aded2f425529d93ba20631b1"
+  },
+  {
+   "file": "paper/figs/v31/fig_dumbbell.pdf",
+   "inputs": "S",
+   "object": "Fig. option order",
+   "scripts": "make_figs_v31.py",
+   "sha256": "2b5324a8901c22cd746c7e940aa19718fd3837baf81f0657ae85f3e0229bc9f0"
+  },
+  {
+   "file": "paper/figs/v31/fig_heat.pdf",
+   "inputs": "S",
+   "object": "Fig. channel-variant heatmap",
+   "scripts": "make_figs_v31.py",
+   "sha256": "990dacf1e90b89d6a05686606cc2d59a72613ce752fadf0a225edc27ac4d0ce6"
+  },
+  {
+   "file": "paper/figs/v31/fig_flow.pdf",
+   "inputs": "S",
+   "object": "Fig. trajectory decomposition",
+   "scripts": "make_figs_v31.py",
+   "sha256": "ba803d47fbfc9a161e13364bbc6c0cbe84244801d398495f202406922d8d8931"
+  },
+  {
+   "file": "paper/figs/v31/fig_vti.pdf",
+   "inputs": "S",
+   "object": "Fig. verify-then-ignore by reason",
+   "scripts": "make_figs_v31.py",
+   "sha256": "a25f7a89b550e33dfb9b57a9ecd5e6079c6c1f62499c9f626ae89bd6b9dbae9f"
+  },
+  {
+   "file": "paper/figs/v31/tab_taxonomy.tex",
+   "inputs": "S",
+   "object": "Table failure modes",
+   "scripts": "make_tabs_v31.py",
+   "sha256": "d9955cc1b3bda362f83bcc112b606692dc85fc676837349688ac7c04f91fa258"
+  },
+  {
+   "file": "paper/figs/v31/fig_frontier.pdf",
+   "inputs": "S",
+   "object": "Fig. safety against utility",
+   "scripts": "make_figs_v31.py",
+   "sha256": "535831042e46a62f2c4599f7ed7b53c007f43b0a5a754b78ede75fc3938c7841"
+  },
+  {
+   "file": "paper/figs/v31/fig_pilot.pdf",
+   "inputs": "P",
+   "object": "Fig. pilot",
+   "scripts": "redraw_v31.py",
+   "sha256": "4bac6f85adea2b1c03196a16897d769773bca6e3b32d2dc0442c995380bf3f5c"
+  },
+  {
+   "file": "paper/figs/v31/tab_pilot.tex",
+   "inputs": "P",
+   "object": "Table pilot",
+   "scripts": "make_figs.py, make_tabs_v31.py",
+   "sha256": "a0436820605b905cfff447dbc3fba2d63e3f955a6ef5273d353a72e5d331b3fe"
+  },
+  {
+   "file": "paper/figs/v32/fig_design_v31.pdf",
+   "inputs": "D",
+   "object": "Fig. design",
+   "scripts": "make_figs_v31.py (tikz/v31/fig_design_v31.tex), widen_v32.py",
+   "sha256": "e84b6b01acb74e8ec638dd7428ca5ae37510dc17ed5c58230bede77c646433db"
+  },
+  {
+   "file": "paper/figs/v31/fig_main_wording.pdf",
+   "inputs": "E",
+   "object": "Fig. execution by condition",
+   "scripts": "redraw_v31.py",
+   "sha256": "c3f8df1579e3e05f35e212f21158c2251277650a0c40e8878765f62d28e7402c"
+  },
+  {
+   "file": "paper/figs/v31/fig_main_variant.pdf",
+   "inputs": "E",
+   "object": "Fig. execution by variant",
+   "scripts": "redraw_v31.py",
+   "sha256": "e5f548bd636bcb292f6d32d037a934b6aaa1e69ba529ab14bea9543b0d058a98"
+  },
+  {
+   "file": "paper/figs/v31/tab_percond.tex",
+   "inputs": "R",
+   "object": "Table per-condition rates",
+   "scripts": "make_tab_percond.py, make_tabs_v31.py",
+   "sha256": "e9948e2a30567f63a60477437a3b0701c84f1f77ff0d469e7a296afc52db6595"
+  },
+  {
+   "file": "paper/figs/v31/tab_tests.tex",
+   "inputs": "S",
+   "object": "Table paired tests",
+   "scripts": "make_tabs_v31.py",
+   "sha256": "6cb9bfd78da444da067d1c40916b614a167c5198ebd4d390b6d5f565e08e4b51"
+  },
+  {
+   "file": "paper/figs/v31/tab_channel.tex",
+   "inputs": "S",
+   "object": "Table channel marginals",
+   "scripts": "make_tabs_v31.py",
+   "sha256": "db59719a7d5a521dd0ba8bba5c4e94ffa98b7ac42ce40e3b485e90e5f3f1ee9e"
+  },
+  {
+   "file": "paper/figs/v31/tab_repro.tex",
+   "inputs": "S",
+   "object": "Table run manifests",
+   "scripts": "make_tabs_v31.py",
+   "sha256": "6cf205fdc60d7f0ab044e05263b57cfd44d15b5c3514ae0d7231d1ff419a52ef"
+  },
+  {
+   "file": "paper/figs/v31/tab_taxexamples.tex",
+   "inputs": "S",
+   "object": "Table failure-mode examples",
+   "scripts": "make_tabs_v31.py",
+   "sha256": "0cc5abd7f8cd02f30bf304f35137bede5c33b13cdb1308a0aa4976a648b18028"
+  },
+  {
+   "file": "paper/figs/v31/fig_traj_full.pdf",
+   "inputs": "E, H, X",
+   "object": "Fig. verbatim trajectories",
+   "scripts": "make_exhibits_v31.py, make_figs_v31.py",
+   "sha256": "4acb645844c70d2d2259c3e009300a304c303b92e97046f464bc323a288d2b31"
+  },
+  {
+   "file": "paper/figs/v31/app_prompts.tex",
+   "inputs": "H",
+   "object": "Prompts",
+   "scripts": "make_exhibits_v31.py",
+   "sha256": "631b91355614c1af7938fe41c684af9e5c98f0e34a47ad4a31eaf9f843ed42ea"
+  },
+  {
+   "file": "paper/figs/v31/tab_clearances.tex",
+   "inputs": "H",
+   "object": "Table clearance strings",
+   "scripts": "make_exhibits_v31.py",
+   "sha256": "67fee4d99284fcbaf8d1422b4c799b15ce5fc21991552f639cc88968650e6dd9"
+  },
+  {
+   "file": "paper/figs/v31/app_gallery.tex",
+   "inputs": "E, H, X",
+   "object": "Trajectory gallery",
+   "scripts": "make_exhibits_v31.py",
+   "sha256": "f92aafb13f023c48581ff3a5949494bb958509c14f19d563c0ac40b78cf94976"
+  },
+  {
+   "file": "paper/figs/v32b/tab_positioning.tex",
+   "inputs": "J",
+   "object": "Table related evaluations",
+   "scripts": "make_positioning_v32b.py",
+   "sha256": "71e7660b7509d3d2a3d4fb58de30d7505cafde0ba9820e835416b1a995567440"
+  }
+ ],
+ "inputs": {
+  "D": {
+   "prereg-2026-10-30.md": "8ca42613edf3a2c07ac1adc9f46ccb07f1375d2b59539e3207f9de0a482ac718"
+  },
+  "E": {
+   "runs/main/Qwen2.5-0.5B-Instruct/episodes.jsonl": "e25015ddd77ac94a30a368d4cfdd410d46ebc02e7795d0ae100c3bc267956fcd",
+   "runs/main/Qwen2.5-1.5B-Instruct/episodes.jsonl": "5c1ee121cefec58a2fa631eeb87cda715c992264b040433d476970ecb4159a48",
+   "runs/main/Qwen2.5-3B-Instruct/episodes.jsonl": "a68c95e3e4b0590881385ef3a5901183c7d0426407bb30627cf4e9817890f197",
+   "runs/main/SmolLM2-1.7B-Instruct/episodes.jsonl": "f24739bd0810af76e1ced9fdff6a7fca6e25dfebdf15aaf64ec3484bfbbb4780"
+  },
+  "H": {
+   "code/bcharness/agent.py": "40db55f1c60da720d320f7e4d180427da444983707f7a7494cccafc559e3ad7e",
+   "code/bcharness/bank.py": "84a700c8cfea725378fcd2246c3b0aa74f9e4e8ed0d88d07a88d1beac333861e",
+   "code/bcharness/crypto.py": "280600a6ff846928832a5b85ae1ada110d11bd837d00195f19af51ee4869101b",
+   "code/bcharness/policies.py": "e92c182a75f3089e1d67544cc19aff065c126fbe6d582a0cee7b7a1c9bc28240",
+   "code/bcharness/scenarios.py": "adaac81eec410fcd914cadbaa0c03ca7778d914d5c4c3a77e40c80a727329c51",
+   "code/bcharness/verifier.py": "131b6a55569afd7ead5a99d170a6edf3606323b8c4bade625c1de3bed7ad180d"
+  },
+  "J": {
+   "paper/figs/v32b/positioning_v32b.json": "6f904b25d1381738565714ab8e267d6e52cc74d9f62c915b5cb292b29648c3bf"
+  },
+  "P": {
+   "runs/pilot-v02/episodes.jsonl": "75f8b3f95925916ccdd1cfbc42c9e44efb23273999eee19788abcdfd5dfda8e8",
+   "runs/pilot/episodes.jsonl": "cb490008f03173b05fcb41f67e50038e1271a4cdb315337a552389d2e4afc184"
+  },
+  "R": {
+   "runs/main/analysis/factorial-report.md": "b3613919bb56e28c9654a1d74852c14fb4110568d4bfe822690fc20cd82c4f3c"
+  },
+  "S": {
+   "paper/figs/v31/stats_v3.json": "69239743d496dc53179a8a572a5ce567f7535faad5bb08c325661f8bfb3f7a6f"
+  },
+  "X": {
+   "paper/figs/v31/exhibits_v3.json": "4c8e7de6e6222e6eeba968c9b711d6dcc2e07b86f20762133860e4cadf9f4a73"
+  }
+ },
+ "note": "PDF metadata stripped with strip_meta.py; widths checked with check_figs.py (6.5in = measured \\linewidth 469.755pt); stats_v3.json is made by stats_v3.py from E, exhibits_v3.json by make_exhibits_v31.py from E and H; tab_provenance.tex is generated from this file; v3.2: fig_threat, fig_traj_schematic and fig_design_v31 redrawn at 6.5in by widen_v32.py from tikz/v31 (horizontal spacing only); v3.2a: This work P5 partial; v3.2b: tab_positioning.tex and positioning_v32b.json written by make_positioning_v32b.py (retrieval note dated)",
+ "outputs": {
+  "paper/figs/v31/app_gallery.tex": "f92aafb13f023c48581ff3a5949494bb958509c14f19d563c0ac40b78cf94976",
+  "paper/figs/v31/app_prompts.tex": "631b91355614c1af7938fe41c684af9e5c98f0e34a47ad4a31eaf9f843ed42ea",
+  "paper/figs/v31/fig_dumbbell.csv": "b97c7fc3f2fdd9a458deaac8e28e9f5a802656af9439cd2568453f92b6907f8f",
+  "paper/figs/v31/fig_dumbbell.pdf": "2b5324a8901c22cd746c7e940aa19718fd3837baf81f0657ae85f3e0229bc9f0",
+  "paper/figs/v31/fig_dumbbell.svg": "376a7ec808f6f7caf0883165259dfd550d78b93a6cd087dde2f2e36d69e1849c",
+  "paper/figs/v31/fig_flow.csv": "52a6fbaabcf19cbce175bc0c77e8164e78bae0ed76c77f1460fc5927c15afaa1",
+  "paper/figs/v31/fig_flow.pdf": "ba803d47fbfc9a161e13364bbc6c0cbe84244801d398495f202406922d8d8931",
+  "paper/figs/v31/fig_flow.svg": "947da8038e0d5d180f0f0ebec74357268685c8cd22213d90ec4f5edae0f70f2b",
+  "paper/figs/v31/fig_frontier.csv": "993179a7257e81adc0927683c9cbf5012d94c8ad527345eab846c0fdf9d1473a",
+  "paper/figs/v31/fig_frontier.pdf": "535831042e46a62f2c4599f7ed7b53c007f43b0a5a754b78ede75fc3938c7841",
+  "paper/figs/v31/fig_frontier.svg": "1299e99beab7484ea09e33362c83271ac8aec9e69572e064db31648a5444bd25",
+  "paper/figs/v31/fig_harness_v31.pdf": "3ba3c344af4fe7b0f00f3eca88da3ed47107d0b73c9945bd2182d5097501a61c",
+  "paper/figs/v31/fig_heat.csv": "9aa5860a39e89517a11c4980e95d94c6018524c7c0b5bd6a658c0dedaa2f0602",
+  "paper/figs/v31/fig_heat.pdf": "990dacf1e90b89d6a05686606cc2d59a72613ce752fadf0a225edc27ac4d0ce6",
+  "paper/figs/v31/fig_heat.svg": "460ee13afc4c26efc011bdbed52c4ad6daedc47f9048e7a9f06d5c978a617292",
+  "paper/figs/v31/fig_main_arm.csv": "1b39a83aa8ab7380e87222ad22c333774c7398a721eadd8611bdca8a33552fc8",
+  "paper/figs/v31/fig_main_arm.pdf": "f22c7ac2b53e5e02a67b9aa7f474498e907ec7a1aded2f425529d93ba20631b1",
+  "paper/figs/v31/fig_main_arm.svg": "69c2876c66173657a25b065b21996ea0cce5f09d0fce4ff65e84f0fafee4b518",
+  "paper/figs/v31/fig_main_variant.csv": "6d78ab6e0e9074914d0486f4d3ceb84c0250698bd64b2a90577b4886b3903f87",
+  "paper/figs/v31/fig_main_variant.pdf": "e5f548bd636bcb292f6d32d037a934b6aaa1e69ba529ab14bea9543b0d058a98",
+  "paper/figs/v31/fig_main_variant.svg": "a635a0a04b27fe8bd67c6ac4db83485f19a8514c7c09d962db10063266a8019e",
+  "paper/figs/v31/fig_main_wording.csv": "5ec11369e51bd6c67bbcf26ed69c919922f0183791421475a1ecb443a6b90c8d",
+  "paper/figs/v31/fig_main_wording.pdf": "c3f8df1579e3e05f35e212f21158c2251277650a0c40e8878765f62d28e7402c",
+  "paper/figs/v31/fig_main_wording.svg": "17696290ff13677223a12a18a2f3e9dbe1b8070ffa47a2279125cf3333d7ce9d",
+  "paper/figs/v31/fig_pilot.pdf": "4bac6f85adea2b1c03196a16897d769773bca6e3b32d2dc0442c995380bf3f5c",
+  "paper/figs/v31/fig_pilot.svg": "864a05cad9d89332fb4b56877354c53c1c5fae306ccec9e3c07948080f3c3c5a",
+  "paper/figs/v31/fig_pilot_a.csv": "b8a1be974d3d7fe081da70d21871e4ff9a8689965b4ccdd654d1d7971d705f38",
+  "paper/figs/v31/fig_pilot_b.csv": "d285784076a0b6cb2ab23bc9f3cec2437715f864f26f51cd71f51388ae09ceff",
+  "paper/figs/v31/fig_traj_body.tex": "3f440e8e62ab7106574d52f72fceab525625940f384522932f1615513e68c807",
+  "paper/figs/v31/fig_traj_full.pdf": "4acb645844c70d2d2259c3e009300a304c303b92e97046f464bc323a288d2b31",
+  "paper/figs/v31/fig_vti.csv": "58a4b4bb697d6156ab32cbf8111464a416cabb32863d662c8a05d707cb81aee7",
+  "paper/figs/v31/fig_vti.pdf": "a25f7a89b550e33dfb9b57a9ecd5e6079c6c1f62499c9f626ae89bd6b9dbae9f",
+  "paper/figs/v31/fig_vti.svg": "2df896edd599ba8f620188cef04c81db18d1933c3f9524f9c766612bfd5359b7",
+  "paper/figs/v31/tab_channel.tex": "db59719a7d5a521dd0ba8bba5c4e94ffa98b7ac42ce40e3b485e90e5f3f1ee9e",
+  "paper/figs/v31/tab_clearances.tex": "67fee4d99284fcbaf8d1422b4c799b15ce5fc21991552f639cc88968650e6dd9",
+  "paper/figs/v31/tab_main.tex": "3f9fe83fb50f6bcd50b7ab210f29176526f4024800ab2b9d11e36af5dfbded2a",
+  "paper/figs/v31/tab_percond.tex": "e9948e2a30567f63a60477437a3b0701c84f1f77ff0d469e7a296afc52db6595",
+  "paper/figs/v31/tab_pilot.tex": "a0436820605b905cfff447dbc3fba2d63e3f955a6ef5273d353a72e5d331b3fe",
+  "paper/figs/v31/tab_repro.tex": "6cf205fdc60d7f0ab044e05263b57cfd44d15b5c3514ae0d7231d1ff419a52ef",
+  "paper/figs/v31/tab_taxexamples.tex": "0cc5abd7f8cd02f30bf304f35137bede5c33b13cdb1308a0aa4976a648b18028",
+  "paper/figs/v31/tab_taxonomy.tex": "d9955cc1b3bda362f83bcc112b606692dc85fc676837349688ac7c04f91fa258",
+  "paper/figs/v31/tab_tests.tex": "6cb9bfd78da444da067d1c40916b614a167c5198ebd4d390b6d5f565e08e4b51",
+  "paper/figs/v32/fig_design_v31.pdf": "e84b6b01acb74e8ec638dd7428ca5ae37510dc17ed5c58230bede77c646433db",
+  "paper/figs/v32/fig_threat.pdf": "e752e6e08f550fffd1e928467ba1bc4936b17550ff93c6d1597db6f0482bb1f7",
+  "paper/figs/v32/fig_traj_schematic.pdf": "c33de3aa2c32eb52f83d612f8f9c3c4b1c16ae4f0fdf244f4369292d25652474",
+  "paper/figs/v32b/positioning_v32b.json": "6f904b25d1381738565714ab8e267d6e52cc74d9f62c915b5cb292b29648c3bf",
+  "paper/figs/v32b/tab_positioning.tex": "71e7660b7509d3d2a3d4fb58de30d7505cafde0ba9820e835416b1a995567440"
+ },
+ "python": "3.13.5",
+ "scripts": {
+  "paper/figs/make_exhibits_v3.py": "39b0e13f78789d0c22033b0feb6e8bb6877ef0c56bc9c042e83be91c8c8812d4",
+  "paper/figs/make_exhibits_v31.py": "099ed19c5c545c1db44b8930383fe017a937787e307d6198c6df1aa84fe3f8a3",
+  "paper/figs/make_figs.py": "b6d86dfd3465ae069470dbc04af563857d59cb52c232380d4d4d6c1c1e385a03",
+  "paper/figs/make_figs_v31.py": "a8e9197ae8e4b1e6382abe5aa5a846727a39f864256f2b72c147ca859018fc56",
+  "paper/figs/make_manifest_v32b.py": "d8a1edc7b3abf3efa8e65036f3b96af074e5c2537cdf36a631ab58bd60dd78f3",
+  "paper/figs/make_positioning_v32b.py": "610f500f69fbeb8b55783d1d3ae2e922a60b780775929d045665510699326913",
+  "paper/figs/make_tab_percond.py": "414e96f9c0e640916da421a4eea11e81792962d5c8b8062d62842d0ba61d26e7",
+  "paper/figs/make_tabs_v31.py": "bf4c1a11b115718eb34923da188bce14d7597e7f57cc373eb7ac2a3ec10142fa",
+  "paper/figs/manifest_v31.py": "4982d57b0810b836593e288109ff2f610fcf656b84e46fd2e859e84278efe685",
+  "paper/figs/redraw_v31.py": "ea3eed7229029b21600c2c39362613881a1dbe288d17751d92c9b8065d1eb1cd",
+  "paper/figs/stats_v3.py": "a6ac5de813425a3fa039f9037d29df8078b8cef44a98e5f644c35d77e634f93a",
+  "paper/figs/tikz/v31/fig_design_v31.tex": "968fb0ac4f6353f81e54e38fa37878562cc4b8a6b59412eb9489f6ff84717723",
+  "paper/figs/tikz/v31/fig_harness_v31.tex": "852eed3cff4373e7e6da14fd6cce60961fc70ca9ef0b48f56f5a21161b06d497",
+  "paper/figs/tikz/v31/fig_threat.tex": "cb0a65b31b1980eb2c7a394521ddae9a51acdc782d4bf36e05a0724cd131c442",
+  "paper/figs/tikz/v31/fig_traj_full.tex": "9187970c6c6efbe5eee8b98db9a2670e3f1712a6917217cc81511eba8659baf2",
+  "paper/figs/tikz/v31/fig_traj_schematic.tex": "5ddea0a697ed766f545ca30abf99a55d56a296c8b9992daa336f385d96eb5be7",
+  "paper/figs/tikz/v32/fig_design_v31.tex": "6667d6fc29711870747fb62494b5164de648886f38c5a07270f7dac89538aa23",
+  "paper/figs/tikz/v32/fig_threat.tex": "54f911deba37f9ce927dba19a31438ea05378300320d34e8957dbd94236df45c",
+  "paper/figs/tikz/v32/fig_traj_schematic.tex": "f29ca562011c8d17c41a162067a541dc9234c3e4acb3e804c58b857a9bba1982",
+  "paper/figs/v32b/tab_positioning_notes.tex": "542977d6f65e0932ec98e5d58a88d58d441394638b26ef59cef9752ae475e979",
+  "paper/figs/v3_integrity.py": "dafba61c6862c9193d4e4620dbf2e65304b3951e66f06faf5031cf43b7725523",
+  "paper/figs/widen_v32.py": "72821f85af1907dbd09b8ecc897306d8041676d169360764bfa6397e99f0df30"
+ }
+}

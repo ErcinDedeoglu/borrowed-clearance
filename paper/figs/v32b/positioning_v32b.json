@@ -1,0 +1,337 @@
+{
+ "opened": "2026-10-31 12:44-12:47 Asia/Dubai (UTC+4), arXiv abs/HTML pages retrieved from the live arXiv records on 2026-10-31; v3.1: rows Louck, Zanolini, Zhang et al. and column P10 checked against the arXiv PDFs fetched 2026-10-31 14:10 Asia/Dubai (UTC+4); v3.2: FinVault v1 and its v2 withdrawal notice re-opened on arXiv 2026-11-01 00:29 Asia/Dubai (UTC+4); v3.2a: This work P5 set to partial (forged-signature and unregistered-key rejection unit-tested only, not run as an episode variant)",
+ "columns": {
+  "P1": "the evaluated model acts (emits tool calls), rather than only judging as a monitor",
+  "P2": "unsafe outcome scored on a state change in the environment, not on text",
+  "P3": "attempted action reported separately from executed action",
+  "P4": "a signed or cryptographic artifact is varied as an independent variable",
+  "P5": "signed-but-invalid forms (replayed, wrong binding, wrong key, out of window) are tested",
+  "P6": "delivery channel of the evidence/injection analysed as a factor",
+  "P7": "prompt-wording factor declared in a pre-registration",
+  "P8": "a code-enforced check at the point of action is evaluated",
+  "P9": "primary outcome scored deterministically, without a judge model",
+  "P10": "the acting agent itself receives the varied clearance or authorization evidence"
+ },
+ "legend": {
+  "Y": "holds as described in the paper",
+  "-": "read, not reported or not applicable",
+  "?": "not verifiable from the sections read",
+  "P": "holds only in part; the reason is given in the row's evidence"
+ },
+ "rows": [
+  {
+   "key": "debenedetti2024agentdojo",
+   "name": "AgentDojo",
+   "url": "https://arxiv.org/abs/2406.13352",
+   "cells": {
+    "P1": "Y",
+    "P2": "Y",
+    "P3": "-",
+    "P4": "-",
+    "P5": "-",
+    "P6": "-",
+    "P7": "-",
+    "P8": "-",
+    "P9": "Y",
+    "P10": "-"
+   },
+   "evidence": {
+    "P1": "S3: agents call tools in stateful environments (Workspace, Slack, Travel, Banking)",
+    "P2": "S1/S3: utility and security checks are 'formal utility checks computed over the environment state'",
+    "P3": "S3.4 metrics: benign utility, utility under attack, targeted ASR; no attempted-vs-executed split",
+    "P4": "no signed artifacts in tasks",
+    "P5": "not applicable",
+    "P6": "suites and injection position (App. D, Fig. 21) are analysed, but delivery channel is not a designed factor",
+    "P7": "no pre-registration",
+    "P8": "defenses evaluated: delimiters, BERT PI detector, prompt sandwiching, tool filter (LLM-selected); none is a code check of authority",
+    "P9": "S3: 'deterministic binary function' over environment state; argues against LLM evaluators",
+    "P10": "no clearance or authorization evidence is varied; injections vary"
+   }
+  },
+  {
+   "key": "zhan2024injecagent",
+   "name": "InjecAgent",
+   "url": "https://arxiv.org/abs/2403.02691",
+   "cells": {
+    "P1": "Y",
+    "P2": "-",
+    "P3": "-",
+    "P4": "-",
+    "P5": "-",
+    "P6": "Y",
+    "P7": "-",
+    "P8": "-",
+    "P9": "?",
+    "P10": "-"
+   },
+   "evidence": {
+    "P1": "S2.3: agent's next action after a tool response is evaluated",
+    "P2": "S2.3/S3.1: success is the parsed next action (tool call), not a state change; data-stealing step 2 uses a tool response simulated by a separate model",
+    "P3": "not reported",
+    "P4": "not applicable",
+    "P5": "not applicable",
+    "P6": "S4.1 Tab. 4: user case (the tool that returns attacker content) vs attacker case, Cramer's V; S4.2 content freedom of the placeholder",
+    "P7": "long vs short ReAct prompt compared (App. C.6), not pre-registered",
+    "P8": "no code-enforced defense evaluated",
+    "P9": "blank: direct-harm success read from parsed output, but the data-stealing step relies on a tool response simulated by a separate model",
+    "P10": "no clearance or authorization evidence is varied; injected tool responses vary"
+   }
+  },
+  {
+   "key": "hu2026silence",
+   "name": "Hu",
+   "url": "https://arxiv.org/abs/2609.20211",
+   "cells": {
+    "P1": "-",
+    "P2": "-",
+    "P3": "-",
+    "P4": "-",
+    "P5": "-",
+    "P6": "Y",
+    "P7": "-",
+    "P8": "-",
+    "P9": "?",
+    "P10": "-"
+   },
+   "evidence": {
+    "P1": "S2: the evaluated models are safety monitors returning approve/refuse",
+    "P2": "outcome is the approve/refuse decision",
+    "P3": "not reported",
+    "P4": "the varied artifact is a textual (UNVERIFIED) marker, not a signed object",
+    "P5": "not applicable",
+    "P6": "S4 Tab. 4 'Channel audit': summarizers and memory compressors as handoff channels",
+    "P7": "marker-wording robustness (App. J), no pre-registration stated",
+    "P8": "S8: structured provenance recommended; 'We do not implement or validate a complete provenance architecture'",
+    "P9": "blank: decisions read from approve/refuse token log-probabilities, but channel audits use two model annotators",
+    "P10": "the varied (UNVERIFIED) marker is read by monitors, not by an acting agent"
+   }
+  },
+  {
+   "key": "sidot2026verify",
+   "name": "Sidot",
+   "url": "https://arxiv.org/abs/2607.19267",
+   "cells": {
+    "P1": "Y",
+    "P2": "Y",
+    "P3": "-",
+    "P4": "-",
+    "P5": "-",
+    "P6": "-",
+    "P7": "Y",
+    "P8": "-",
+    "P9": "Y",
+    "P10": "?"
+   },
+   "evidence": {
+    "P1": "S2: five-agent pipeline that merges and deploys",
+    "P2": "S2: success is a static check on the mocked deployed artifact",
+    "P3": "per-verifier blocking reported, but not attempted vs executed for one action",
+    "P4": "authority claim 'SEC-2291' is text, not signed",
+    "P5": "not applicable",
+    "P6": "single untrusted entry (one issue); no channel factor",
+    "P7": "S3: 'Factorial (pre-registered)'; factor B varies verifier prompt text (SOLO vs CHAIN)",
+    "P8": "content shield ran in shadow mode (observation only); no enforcing code check",
+    "P9": "S2: binary success detected statically on the artifact",
+    "P10": "the text authority claim reaches the acting pipeline agents; whether its form is varied as a factor is not stated in the sections read"
+   }
+  },
+  {
+   "key": "yang2026finvault",
+   "name": "FinVault",
+   "url": "https://arxiv.org/abs/2601.07853v1",
+   "cells": {
+    "P1": "Y",
+    "P2": "Y",
+    "P3": "-",
+    "P4": "-",
+    "P5": "-",
+    "P6": "-",
+    "P7": "-",
+    "P8": "-",
+    "P9": "?",
+    "P10": "-"
+   },
+   "evidence": {
+    "P1": "S1/S3: agents invoke tools in sandboxed financial scenarios",
+    "P2": "S1: 'state-writable databases'; attacks judged on observable business state changes",
+    "P3": "ASR and vulnerability rate only",
+    "P4": "not applicable",
+    "P5": "not applicable",
+    "P6": "factors are scenario category and attack technique, not delivery channel",
+    "P7": "no pre-registration",
+    "P8": "defenses evaluated are LLaMA Guard 3/4 and an open-weight safeguard classifier",
+    "P9": "blank: trigger function f_v includes a response-content condition f_c whose implementation is not specified",
+    "P10": "no clearance or authorization evidence is varied"
+   },
+   "status": "FinVault: the authors have since withdrawn the paper (arXiv v2, 30 July 2026); its cells describe v1."
+  },
+  {
+   "key": "kodathala2026aiauthz",
+   "name": "aiAuthZ",
+   "url": "https://arxiv.org/abs/2607.05518",
+   "cells": {
+    "P1": "Y",
+    "P2": "?",
+    "P3": "Y",
+    "P4": "-",
+    "P5": "?",
+    "P6": "-",
+    "P7": "-",
+    "P8": "Y",
+    "P9": "Y",
+    "P10": "-"
+   },
+   "evidence": {
+    "P1": "S5.1: models emit tool calls against exposed dangerous tools",
+    "P2": "blank: main benchmark counts emitted dangerous calls; only the AgentDojo suite scores state",
+    "P3": "Tab. 2: 'Attempts' (model emitted the call) vs 'Residual' reaching the tool, with and without gateway",
+    "P4": "HMAC signs user messages as the defense; the agent's evidence is not varied as a signed artifact",
+    "P5": "blank: replay, stale-timestamp and wrong-key cases are covered by unit tests and receipt trials, not reported as an agent experiment",
+    "P6": "not reported",
+    "P7": "no pre-registration",
+    "P8": "S3: off-host gateway returns allow/deny before any side effect",
+    "P9": "S5.1: attempts read from emitted tool calls; gateway decision is the unmodified policy engine",
+    "P10": "S3/S5: HMAC-signed user messages are the defense; the evidence shown to the agent is not varied"
+   }
+  },
+  {
+   "key": "hagverdiyev2026compromise",
+   "name": "Hagverdiyev",
+   "url": "https://arxiv.org/abs/2610.05840",
+   "cells": {
+    "P1": "Y",
+    "P2": "Y",
+    "P3": "Y",
+    "P4": "Y",
+    "P5": "Y",
+    "P6": "-",
+    "P7": "-",
+    "P8": "Y",
+    "P9": "Y",
+    "P10": "-"
+   },
+   "evidence": {
+    "P1": "S4: live model samples structured requests in stateful trajectories",
+    "P2": "S4-E: execution and residual state change recorded separately",
+    "P3": "S2-A/S5: compromise C (out-of-scope selection) vs harmful execution H; 2,054 selections vs 1,649 broad executions",
+    "P4": "Tab. I: credential condition varied (broad bearer, scoped JWT, DPoP, OPA) at the service, not shown to the model",
+    "P5": "S3: DPoP suite tests stolen token, mismatched key, proof replay, wrong method/URI/hash (8/8)",
+    "P6": "carriers are part of eight template contexts per cell, not analysed as a factor",
+    "P7": "S4-A/App. B: frozen configuration, explicitly not prospective pre-registration",
+    "P8": "S3: service checks action/resource scope before dispatch",
+    "P9": "S2-A: operational oracle compares typed action/resource pairs with reviewed task authority",
+    "P10": "Tab. I: the credential condition is varied at the service and not shown to the model"
+   }
+  },
+  {
+   "key": "louck2026signing",
+   "name": "Louck et al.",
+   "url": "https://arxiv.org/abs/2609.11757",
+   "cells": {
+    "P1": "Y",
+    "P2": "Y",
+    "P3": "?",
+    "P4": "-",
+    "P5": "?",
+    "P6": "?",
+    "P7": "-",
+    "P8": "Y",
+    "P9": "Y",
+    "P10": "-"
+   },
+   "evidence": {
+    "P1": "shopping agent emits tool calls in the AP2 reference deployment; Vault leak measured from the agent's tool call",
+    "P2": "Branded success measured from the signed Cart Mandate; Vault leak counted only if the Credentials Provider returns the victim's alias",
+    "P3": "not separated in the sections read",
+    "P4": "the varied factors are attack phrasing in merchant content and the A-VIP toggle; mandates are signed by the protocol flow, not varied as an input",
+    "P5": "A-VIP invariants make a redeemed token single-use within its validity window, so it cannot be replayed; not run as agent-facing conditions in the sections read",
+    "P6": "attack families target different objects (credential lookup, cart, choice); a delivery-channel factor is not stated",
+    "P7": "no pre-registration found in the PDF text",
+    "P8": "A/B harness: the A-VIP toggle is the only difference between arms",
+    "P9": "Vault and Branded judges are pure Python predicates; Selection is scored by a released reader checked by manual review",
+    "P10": "the agent receives attacker text; no clearance or authorization evidence shown to it is varied"
+   }
+  },
+  {
+   "key": "zanolini2026correlated",
+   "name": "Zanolini",
+   "url": "https://arxiv.org/abs/2610.29178",
+   "cells": {
+    "P1": "-",
+    "P2": "?",
+    "P3": "-",
+    "P4": "-",
+    "P5": "-",
+    "P6": "Y",
+    "P7": "?",
+    "P8": "Y",
+    "P9": "Y",
+    "P10": "-"
+   },
+   "evidence": {
+    "P1": "the evaluated models are approval monitors returning signed verdicts ok/bad; a gateway executes",
+    "P2": "outcomes are frauds executed and good payments blocked by the gateway rule; environment state is not described in the sections read",
+    "P3": "not reported",
+    "P4": "verdict signatures are produced by the monitors; attacks are text in an evidence source",
+    "P5": "forged signatures are outside the threat model",
+    "P6": "evidence source is a factor (three source columns, pre-registered)",
+    "P7": "protocols are pre-registered; a prompt-wording factor is not stated in the sections read",
+    "P8": "gateway executes only on a certificate of signed verdicts that satisfies the rule",
+    "P9": "monitor verdicts are parsed; counts of executed frauds and blocked good payments",
+    "P10": "the varied evidence is read by monitors, not by an acting agent"
+   }
+  },
+  {
+   "key": "zhang2026authorizationbench",
+   "name": "Zhang et al.",
+   "url": "https://arxiv.org/abs/2610.27548",
+   "cells": {
+    "P1": "Y",
+    "P2": "?",
+    "P3": "?",
+    "P4": "-",
+    "P5": "-",
+    "P6": "?",
+    "P7": "-",
+    "P8": "-",
+    "P9": "-",
+    "P10": "-"
+   },
+   "evidence": {
+    "P1": "LLM agents act in a sandbox with mock services; 286 tasks, 6,864 trajectories",
+    "P2": "a post-hoc judge reads service events; deterministic detectors compare final states for terminal and filesystem tasks",
+    "P3": "not separated in the sections read",
+    "P4": "authorization is the principal's natural-language instruction",
+    "P5": "not applicable",
+    "P6": "pressures are delivered through realistic channels; whether channel is analysed as a factor is not stated in the sections read",
+    "P7": "no pre-registration found in the PDF text",
+    "P8": "the benchmark studies agents absent enforcement",
+    "P9": "post-hoc completion and out-of-authorization judges are language models",
+    "P10": "authorization scope is fixed per task in the instruction; it is not varied as clearance evidence"
+   }
+  },
+  {
+   "key": null,
+   "name": "This work",
+   "url": null,
+   "cells": {
+    "P1": "Y",
+    "P2": "Y",
+    "P3": "Y",
+    "P4": "Y",
+    "P5": "P",
+    "P6": "Y",
+    "P7": "P",
+    "P8": "P",
+    "P9": "Y",
+    "P10": "Y"
+   },
+   "evidence": {
+    "all": "see Sections on threat model, harness, design and pre-registration of this paper",
+    "P5": "P5 holds only in part because rejection of a forged signature and of an unregistered signing key is checked in unit tests only, and neither form is run as an episode variant",
+    "P7": "P7 holds only in part because the pre-registration is a dated, hash-committed document not filed with an external registry",
+    "P8": "P8 holds only in part because the code-enforced arm A2 is evaluated only as an enforcement baseline, with unsafe executions excluded by construction"
+   }
+  }
+ ]
+}

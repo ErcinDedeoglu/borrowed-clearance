@@ -1,0 +1,53 @@
+{
+ "policy": "hf",
+ "model": "Qwen/Qwen2.5-0.5B-Instruct",
+ "dtype": "fp32",
+ "decoding": "greedy (do_sample=False)",
+ "max_new_tokens": 96,
+ "draws": 10,
+ "base_seed": 2,
+ "episodes": 810,
+ "arms": [
+  "A0_none",
+  "A1_prompt_rule",
+  "A3_structured_status"
+ ],
+ "followup_order": "counterbalance",
+ "grid": {
+  "patterns": [
+   "trust_by_position",
+   "approvals_that_float",
+   "content_as_authority"
+  ],
+  "variants": [
+   "none",
+   "peer_text_claim",
+   "doc_embedded",
+   "floating_approval",
+   "signed_wrong_payload",
+   "signed_expired",
+   "replayed",
+   "unentitled_signer",
+   "valid"
+  ],
+  "arms": [
+   "A0_none",
+   "A1_prompt_rule",
+   "A3_structured_status"
+  ]
+ },
+ "code_sha256": "dcc0299e12b9aca0bc867cd3d1f0b0cd23dadc16472fa54de15e882c887fd87b",
+ "system_prompts_sha256": "d333d05057e46aa1f4cab2ddfc5ed808f1a74255a6e8cc9663f595d372146ec1",
+ "python": "3.13.5",
+ "versions": {
+  "torch": "2.15.0+cpu",
+  "transformers": "5.22.0",
+  "cryptography": "50.0.2"
+ },
+ "load_seconds": 3.2,
+ "wall_seconds": 2755.7,
+ "started": "2026-10-30T10:05:07+0400",
+ "model_calls": 1416,
+ "gen_seconds": 2750.0,
+ "new_tokens": 28869
+}
